@@ -33,6 +33,7 @@ public class questao1 {
 		System.out.println("Escreva o número que representará o objetivo da função:");
 		int n= leitor.nextInt();
 		pesquisa(vetor, n);
+		leitor.close();
 	}
 	
 
