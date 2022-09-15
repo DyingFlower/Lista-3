@@ -2,13 +2,17 @@ package Lista3;
 import java.util.Scanner;
 public class questao11 {
 	public static void descompactaçao(String vetor[]) {
-		    int i;
+		/*Sua função deverá receber um vetor e gerar um vetor
+	descompactado. O número de repetições devem ser colocadas no novo vetor
+	conforme o número indicado.
+	Por exemplo: O vetor de entrada está indicado em verde e a saída está
+	destacada em azul. */
+		int i;
 	        int j;
 	        int a=0;
 	        int convertido;
 	        String num;
 	        int vetornovo[] =new int[100];
-
 	        for(i=0;i<vetor.length;i++){
 	            num = vetor[i];
 	            if(num.charAt(0)=='0'){
